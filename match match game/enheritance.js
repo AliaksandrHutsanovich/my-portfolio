@@ -198,7 +198,7 @@ function GameField(paramCard, num, begin) {
     for (var i=0; i<num; i++) {
         cards[i]=new paramCard(num);
         cards[i].frame.addEventListener("click", clickCard);
-        console.log(cards[i].frame);
+
         this.frame.appendChild(cards[i].frame);
     }    
 }

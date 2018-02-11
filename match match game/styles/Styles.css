@@ -60,6 +60,7 @@ header button {
 .choise-panel-1, .choise-panel-2 {
     display: inline-block;
     position: absolute;
+    z-index: 2;
 }
 
 .choise-panel-2 {

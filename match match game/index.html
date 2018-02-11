@@ -50,6 +50,9 @@
             //function-handler for element shirt of card
             var insideForm_1=document.getElementsByTagName("form")[0].innerHTML;
             var numClick1=1;
+
+            let count_begin=0;
+
             function shirdCardClick() {
                 if (numClick1%2!=0)  document.getElementsByTagName("form")[0].innerHTML="";
                 else document.getElementsByTagName("form")[0].innerHTML=insideForm_1;
@@ -69,14 +72,34 @@
             function finishClick() {
                     console.log(Card.numCalledCards);
                     console.log(this.num);
+                    let angle=0;
                     if (this.num/2==Card.numCalledCards) {
                         var cleanElem=document.querySelector("body");
                         var clearElem=document.querySelectorAll("body>div")[0];
-                        cleanElem.removeChild(clearElem);
-                        var duration=new Date()-this.begin;
-                        var finishField=new ResultField(duration);
-                        finishField.frame.style.animation="moving_gamefield  3s ease-in";
-                        document.getElementsByTagName("header")[0].parentNode.appendChild(finishField.frame);
+                        let back=false;
+                        const turning_field1=setInterval(()=>{
+                            if (!back) {
+                                angle+=2.25;
+                                clearElem.style.transform=`rotateX(${angle}deg)`;
+                                if (angle>87.75) {
+                                    back=true;
+                                    cleanElem.removeChild(clearElem);
+                                    var duration=new Date()-this.begin;
+                                    var finishField=new ResultField(duration);
+                                    document.getElementsByTagName("header")[0].parentNode.appendChild(finishField.frame);
+                                    clearElem=document.querySelectorAll("body>div")[0];
+                                    clearElem.style.transform=`rotateX(${angle}deg)`;
+                                }
+                            }
+                            if (back){
+                                angle-=2.25;
+                                clearElem.style.transform=`rotateX(${angle}deg)`;
+                                if (angle<=0) {
+                                    clearElem.style.zIndex=0;
+                                    clearInterval(turning_field1);
+                                }
+                            }
+                        },25);
                     }
             }
 
@@ -89,9 +112,32 @@
             //function-handler for button new game
             function newGameClick() {
                 if (document.getElementsByTagName("form")[0].innerHTML && document.getElementsByTagName("form")[0].innerHTML) {
+                    count_begin=0;
                     var cleanElem=document.querySelector("body");
-                    var clearElem=document.querySelectorAll("body>div")[0];
-                    cleanElem.removeChild(clearElem);
+                    let clearElem=document.querySelectorAll("body>div")[0];
+                    let angle=0;
+                    let back=false
+                    const turning_field=setInterval(()=>{
+                        if (!back) {
+                            angle+=2.25;
+                            clearElem.style.transform=`rotateX(${angle}deg)`;
+                            if (angle>87.75) {
+                                back=true;
+                                cleanElem.removeChild(clearElem);
+                                document.getElementsByTagName("header")[0].parentNode.appendChild(gameField.frame);
+                                clearElem=document.querySelectorAll("body>div")[0];
+                                clearElem.style.transform=`rotateX(${angle}deg)`;
+                            }
+                        }
+                        if (back){
+                            angle-=2.25;
+                            clearElem.style.transform=`rotateX(${angle}deg)`;
+                            if (angle<=0) {
+                                clearElem.style.zIndex=0;
+                                clearInterval(turning_field);
+                            }
+                        }
+                    }, 25);
 
                     var arrCreatArg1=[];
                     arrCreatArg1[0]=SmileCard;
@@ -115,17 +161,20 @@
                     let beginTime=new Date();
                     let gameField=new GameField(createParam1, createParam2, beginTime);
                     gameField.frame.addEventListener("click", finishClick);
-                    gameField.frame.style.animation="moving_gamefield  3s ease-in";
-                    document.getElementsByTagName("header")[0].parentNode.appendChild(gameField.frame);
+
                     let timer=document.getElementsByClassName("timer")[0];
-                    let countSek=0;
-                    const interval=setInterval(()=>{
+                    var interval=setInterval(()=>{
                         if (Card.numCalledCards==createParam2/2) {
                             clearInterval(interval);
                             Card.numCalledCards=0;
                         }
                         console.log(Card.numCalledCards);
                         var sek=new Date()-beginTime;
+                        count_begin+=1;
+                        if (Math.floor(sek/1000)!=count_begin) {
+                            count_begin-=1;
+                            clearInterval(interval);
+                        }
                         var minutesTimer=Math.floor(Math.floor(sek/1000)/60);
                         var secondsTimer=Math.floor(sek/1000)-minutesTimer*60;
                         if ((new String(secondsTimer)).length==1)
