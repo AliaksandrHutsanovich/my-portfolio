@@ -1,0 +1,2063 @@
+/*For the first slider*/
+@media (min-width: 769px) {
+    main {
+        margin: 0 auto;
+        width: 89%;
+        height: auto;
+        border-bottom: 1px solid black;
+    }
+
+    .advertise-main {
+        height: 442px;
+        background: rgb(246, 243, 236) url(../images/body.jpg) no-repeat 100% 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .advertise-main>:first-child, .advertise-main>:last-child {
+        width: 2.5%;
+        padding-top: 162px;
+    }
+
+    .advertise-main>:first-child button, .advertise-main>:last-child button {
+        width: 100%;
+        height: 118px;
+        cursor: pointer;
+    }
+
+    .advertise-main>:first-child button {
+        background: white url(../images/arrow_left.jpg) no-repeat 30%;
+    }
+
+    .advertise-main>:first-child button:hover {
+        background: rgb(253, 146, 109);
+    }
+
+    .advertise-main>:last-child button {
+        background: white url(../images/arrow_right.jpg) no-repeat 60%;
+    }
+
+    .advertise-main>:last-child button:hover {
+        background: rgb(253, 146, 109);
+    }
+
+    .crazy-zone {
+        font-family: LuxuryRoyaleJF;
+        padding-left: 11%;
+        padding-top: 31px;
+        font-size: 35px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .decoration-crazy1 {
+        width: 15.6%;
+        background: url(../images/tire.jpg) no-repeat 87% 29px;
+    }
+
+    .crazy {
+        width: 70px;
+    }
+
+    .decoration-crazy2 {
+        width: 15.6%;
+        background: url(../images/tire.jpg) no-repeat 15% 29px;
+    }
+
+    .title-zone>div:nth-child(2) {
+        font-family: HelveticaNeue;
+        font-size: 93px;
+        padding-left: 17.5%;
+        line-height: 74px;
+    }
+
+    .title-zone>div:nth-child(3) {
+        font-family: HelveticaNeue;
+        font-size: 93px;
+        padding-left: 13.1%;
+        line-height: 70px;
+    }
+
+    .title-zone>div:nth-child(4) {
+        height: 20px;
+        background: url(../images/line_bold.jpg) no-repeat 19% 11px;
+    }
+
+    .title-zone>div:nth-child(5) {
+        font-family: HelveticaNeueLtCn;
+        padding-left: 16.7%;
+        padding-top: 2px;
+        font-size: 35px;
+        background: url(../images/line.jpg) no-repeat 19% 0px;
+    }
+
+    .gradient {
+        background: -webkit-linear-gradient(135deg, rgb(199, 170, 174), rgb(251, 197, 147));
+        background-size: 380px 100px;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-position: 18%;
+    }
+
+    .title-zone>div:last-child {
+        padding-left: 21.3%;
+        padding-top: 1px;
+    }
+
+    .title-zone>div:last-child input {
+        width: 156px;
+        height: 58px;
+        background: rgb(253, 146, 109) url(../images/arrow_button.jpg) no-repeat 83% 25px;
+        color: white;
+        font-family: HelveticaNeueLtStd;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 641px) and (max-width:768px) {
+    main {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid black;
+    }
+
+    .advertise-main {
+        height: 350px;
+        background: rgb(246, 243, 236) url(../images/body1.png) no-repeat 103% 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .advertise-main>:first-child, .advertise-main>:last-child {
+        width: 36px;
+        padding-top: 122px;
+    }
+
+    .advertise-main>:first-child button, .advertise-main>:last-child button {
+        width: 100%;
+        height: 118px;
+        cursor: pointer;
+    }
+
+    .advertise-main>:first-child button {
+        background: white url(../images/arrow_left.jpg) no-repeat 30%;
+    }
+
+    .advertise-main>:first-child button:hover {
+        background: rgb(253, 146, 109);
+    }
+
+    .advertise-main>:last-child button {
+        background: white url(../images/arrow_right.jpg) no-repeat 60%;
+    }
+
+    .advertise-main>:last-child button:hover {
+        background: rgb(253, 146, 109);
+    }
+
+    .crazy-zone {
+        font-family: LuxuryRoyaleJF;
+        padding-left: 7%;
+        padding-top: 54px;
+        font-size: 27px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .decoration-crazy1 {
+        width: 15.0%;
+        background: url(../images/tire.jpg) no-repeat 87% 25px;
+    }
+
+    .crazy {
+        width: 70px;
+    }
+
+    .decoration-crazy2 {
+        width: 15.0%;
+        background: url(../images/tire.jpg) no-repeat 15% 25px;
+    }
+
+    .title-zone>div:nth-child(2) {
+        font-family: HelveticaNeue;
+        font-size: 68px;
+        padding-left: 11.5%;
+        line-height: 54px;
+    }
+
+    .title-zone>div:nth-child(3) {
+        font-family: HelveticaNeue;
+        font-size: 68px;
+        padding-left: 6%;
+        line-height: 50px;
+    }
+
+    .title-zone>div:nth-child(4) {
+        height: 10px;
+        background: url(../images/bold_line1.png) no-repeat 10% 8px;
+    }
+
+    .title-zone>div:nth-child(5) {
+        font-family: HelveticaNeueLtCn;
+        padding-left: 10%;
+        padding-top: 2px;
+        font-size: 26px;
+        background: url(../images/line1.png) no-repeat 10% 2px;
+    }
+
+    .gradient {
+        background: -webkit-linear-gradient(135deg, rgb(199, 170, 174), rgb(251, 197, 147));
+        background-size: 270px 100px;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-position: 9%;
+    }
+
+    .title-zone>div:last-child {
+        padding-left: 16.0%;
+        padding-top: 1px;
+    }
+
+    .title-zone>div:last-child input {
+        width: 116px;
+        height: 48px;
+        background: rgb(253, 146, 109) url(../images/arrow_button.jpg) no-repeat 83% 50%;
+        color: white;
+        font-family: HelveticaNeueLtStd;
+        font-size: 12px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 640px) {
+    main {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid black;
+    }
+
+    .advertise-main {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .switch_panel {
+        height: 72px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .switch_panel>div {
+        width: 2.6%;
+        padding-left: 1%;
+        padding-top: 19px;
+    }
+
+    .switch_panel>div button {
+        width: 10px;
+        height: 10px;
+        background: rgb(190, 190, 190);
+        border-radius: 100%;
+    }
+
+    .switch_panel>div button:active {
+        background: orange;
+        border-radius: 100%;
+    }
+}
+
+@media (min-width: 641px) and (max-width:768px) {
+    .switch_panel {
+        height: 54px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .switch_panel>div {
+        width: 3.9%;
+        padding-left: 1.9%;
+        padding-top: 13px;
+    }
+
+    .switch_panel>div button {
+        width: 10px;
+        height: 10px;
+        background: rgb(190, 190, 190);
+        border-radius: 100%;
+    }
+
+    .switch_panel>div button:active {
+        background: orange;
+        border-radius: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .switch_panel {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .add-inform {
+        height: 54px;
+        display: flex;
+        flex-direction: row;
+        background: rgb(237, 237, 237);
+        font-family: arial;
+        font-size: 12px;
+    }
+
+    .add-inform>:first-child {
+        width: 57.5%;
+        display: flex;
+        flex-direction: row;
+        padding-left: 9.3%;
+        padding-top: 21px;
+    }
+
+    .add-inform>:first-child p {
+        width: 80px
+    }
+
+    .add-inform>:first-child input {
+        height: 25px;
+        width: 23%;
+        margin-left: 0%;
+        margin-top: -6px;
+        font-style: italic;
+        border: none;
+    }
+
+    .add-inform>:first-child button {
+        height: 25px;
+        width: 25px;
+        margin-top: -6px;
+        background: rgb(253, 146, 109) url(../images/Krest.jpg) no-repeat 6px;
+        cursor: pointer;
+        border: none;
+    }
+
+    .add-inform>:nth-child(2) {
+        width: 18.8%;
+        padding-top: 20px;
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .add-inform>:nth-child(n+3) {
+        width: 55px;
+        border: none;
+    }
+
+    .add-inform>:nth-child(3) {
+        background: rgb(247, 247, 247) url(../images/Shape3.jpg) no-repeat 25px 19px;
+        cursor: pointer;
+    }
+
+    .add-inform>:nth-child(5) {
+        background: rgb(247, 247, 247) url(../images/Shape1.jpg) no-repeat 17px 16px;
+        cursor: pointer;
+    }
+
+    .add-inform>:nth-child(4){
+        background: rgb(237, 237, 237) url(../images/Shape2.jpg) no-repeat 19px 20px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1044px) {
+    .add-inform>:first-child input {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 641px) and (max-width:768px) {
+    .add-inform {
+        height: 54px;
+        display: flex;
+        flex-direction: row;
+        background: rgb(237, 237, 237);
+        font-family: arial;
+        font-size: 12px;
+    }
+
+    .add-inform>:first-child {
+        width: 57.5%;
+        display: flex;
+        flex-direction: row;
+        padding-left: 1.3%;
+        padding-top: 21px;
+    }
+
+    .add-inform>:first-child p {
+        width: 80px
+    }
+
+    .add-inform>:first-child input {
+        height: 27px;
+        width: 32%;
+        margin-left: 0%;
+        margin-top: -6px;
+        font-style: italic;
+        border: none;
+    }
+
+    .add-inform>:first-child button {
+        height: 28px;
+        width: 28px;
+        margin-top: -6px;
+        background: rgb(253, 146, 109) url(../images/Krest.jpg) no-repeat 8px;
+        cursor: pointer;
+        border: none;
+    }
+
+    .add-inform>:nth-child(2) {
+        width: 18.8%;
+        padding-top: 20px;
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .add-inform>:nth-child(n+3) {
+        width: 55px;
+        border: none;
+    }
+
+    .add-inform>:nth-child(3) {
+        background: rgb(247, 247, 247) url(../images/Shape3.jpg) no-repeat 25px 19px;
+        cursor: pointer;
+    }
+
+    .add-inform>:nth-child(5) {
+        background: rgb(247, 247, 247) url(../images/Shape1.jpg) no-repeat 17px 16px;
+        cursor: pointer;
+    }
+
+    .add-inform>:nth-child(4){
+        background: rgb(237, 237, 237) url(../images/Shape2.jpg) no-repeat 19px 20px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 640px) {
+    .add-inform {
+        height: 240px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: rgb(255, 255, 255);
+        font-family: arial;
+        font-size: 12px;
+    }
+
+    .add-inform>:first-child {
+        width: 100%;
+        display: flex;
+        height: 50%;
+        flex-direction: row;
+        padding-left: 2.2%;
+        padding-top: 16px;
+    }
+
+    .add-inform>:first-child p {
+        display: none;
+    }
+
+    .add-inform>:first-child input {
+        height: 93px;
+        width: 85%;
+        margin-left: 0%;
+        margin-top: -6px;
+        font-style: italic;
+        border: none;
+        font-size: 250%;
+        background-color: rgb(247, 247, 247); 
+    }
+
+    .add-inform>:first-child button {
+        height: 94px;
+        width: 94px;
+        margin-top: -6px;
+        background: rgb(253, 146, 109) url(../images/Krest.jpg) no-repeat 50% 20px;
+        background-size: 40px 40px;
+        cursor: pointer;
+        border: none;
+    }
+
+    .add-inform>:nth-child(2) {
+        width: 44%;
+        padding-top: 33px;
+        font-size: 210%;
+        text-align: right;
+        padding-right: 35px;
+        height: 50%;
+    }
+
+    .add-inform>:nth-child(n+3) {
+        width: 90px;
+        border: none;
+        height: 90px;
+        margin-top: 10px;
+    }
+
+    .add-inform>:nth-child(3) {
+        background: rgb(247, 247, 247) url(../images/Shape3.jpg) no-repeat 50% 50%;
+        cursor: pointer;
+    }
+
+    .add-inform>:nth-child(5) {
+        background: rgb(247, 247, 247) url(../images/Shape1.jpg) no-repeat 50% 50%;
+        cursor: pointer;
+    }
+
+    .add-inform>:nth-child(4){
+        background: rgb(237, 237, 237) url(../images/Shape2.jpg) no-repeat 50% 50%;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 367px) {
+    .add-inform>:first-child input {
+        font-size: 150%;
+    } 
+}
+
+@media (max-width: 415px) {
+   .add-inform>:nth-child(2) {
+        font-size: 110%;
+    }
+}
+
+@media (max-width: 501px) {
+   .add-inform>:nth-child(n+3) {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 769px) {
+    main>:nth-child(4) {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main>:nth-child(4)>div {
+        width: 40%;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+
+    main>:nth-child(4)>:first-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main>:nth-child(4)>:first-child>:first-child {
+        height: 383px;
+        width: 100%;
+        background: url(../images/Looks.jpg) no-repeat -120px 42px;
+        background-size: 173% 640px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    main>:nth-child(4)>:first-child>:first-child>:first-child {
+        width: 270px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .best {
+        padding-top: 97px;
+        padding-left: 30%;
+        font-size: 34px;
+        font-family: HelveticaNeueLtStd_BlkCn;
+    }
+
+    .outfits {
+        font-size: 74px;
+        font-family: HelveticaNeueLtStd_ThCn;
+        padding-left: 4%;
+        line-height: 53px;
+        padding-top: 0px;
+    }
+
+    .outfits+div {
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+    }
+
+    .outfits+div>:nth-child(2n+1) {
+        width: 34%;
+        margin-top: 8px;
+    }
+
+    .unit {
+        width: 34px;
+        height: 34px;
+        border-radius: 25px;
+        background: black;
+        margin-left: -5px;
+        margin-top: 5px;
+        color: white;
+        font-family: HelveticaNeueLtCn;
+        font-size: 20px;
+        font-style: italic;
+        padding-left: 7px;
+        padding-top: 2px;
+    }
+
+    .looks {
+        font-family: HelveticaNeueLtStd_BlkCn;
+        font-size: 82px;
+        padding-left: 3%;
+        line-height: 74px;
+        color: rgb(79, 175, 160);
+    }
+
+    main>:nth-child(4)>:last-child>:first-child {
+        margin-top: 42px;
+        border-bottom: 1px solid white;
+        height: 169px;
+        background: url(../images/girl_summer.jpg) no-repeat 84% -44px;
+        padding-top: 18px;
+        padding-left: 6%;
+    }
+
+    main>:nth-child(4)>:last-child>:nth-child(2) {
+        border-bottom: 1px solid white;
+        height: 170px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    main>:nth-child(4)>:last-child>:first-child>:first-child {
+        background-color: white;
+        height: 134px;
+        width: 134px;
+        border-radius: 100%;
+        text-align: center;
+    }
+
+    main>:nth-child(4)>:last-child>:first-child p:first-child {
+        font-family: Bello_Script;
+        color: red;
+        font-size: 22px;
+        line-height: 72px;
+        height: 36px;
+    }
+
+    main>:nth-child(4)>:last-child>:first-child p:nth-child(2) {
+        font-family: HelveticaNeuelTStd_UltLtCn;
+        color: black;
+        font-size: 44px;
+        line-height: 28px;
+    }
+
+    main>:nth-child(4)>:last-child>:first-child p:nth-child(3) {
+        font-family: HelveticaNeuelTStd_BdCn;
+        color: black;
+        font-size: 14px;
+        line-height: 1px;
+    }
+
+    .best_sellers {
+        border: 1px solid white;
+        width: 55%;
+    }
+
+    .fall_leathers {
+        border: 1px solid white;
+        width: 50%;
+    }
+
+    .best_sellers {
+        background: url(../images/best_sellers.jpg) no-repeat 62% -30px;
+        font-family: HelveticaNeuelTStd_UltLtCn;
+        font-size: 34px;
+        color: white;
+        padding-top: 117px;
+        padding-left: 5%;
+    }
+
+    .fall_leathers {
+        background: url(../images/fall_leather.jpg) no-repeat 10% -21px;
+        background-size: 160% 180%;
+        font-family: HelveticaNeuelTStd_Cn;
+        font-size: 36px;
+        color: white;
+        padding-top: 33px;
+        margin-left: -5%;
+    }
+
+    .fall_leathers p:first-child {
+        margin-left: 46px;
+        height: 20px;
+        width: 60px;
+    }
+
+    .fall_leathers p:nth-child(2) {
+        margin-left: 17px;
+        line-height: 0px;
+        margin-top: 37px;
+    }
+
+    .fall_leathers input:last-child {
+        margin-left: 28px;
+        margin-top: 1px;
+        width: 100px;
+        height: 30px;
+        background: rgb(79, 175, 160) url(../images/arrow_button.jpg) no-repeat 83px;
+        color: white;
+        font-size: 12px;
+        cursor: pointer;
+        border: none;
+        font-family: HelveticaNeueLtStd;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1092px) {
+    .best_sellers {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 641px) and (max-width:768px) {
+    main>:nth-child(4) {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main>:nth-child(4)>div {
+        width: 48%;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+
+    main>:nth-child(4)>:first-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 35px;
+    }
+
+    main>:nth-child(4)>:first-child>:first-child {
+        height: 256px;
+        width: 100%;
+        background: url(../images/Looks.jpg) no-repeat -87px 3px;
+        background-size: 173% 480px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    main>:nth-child(4)>:first-child>:first-child>:first-child {
+        width: 201px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .best {
+        padding-top: 44px;
+        padding-left: 32%;
+        font-size: 25px;
+        font-family: HelveticaNeueLtStd_BlkCn;
+    }
+
+    .outfits {
+        font-size: 56px;
+        font-family: HelveticaNeueLtStd_ThCn;
+        padding-left: 5%;
+        line-height: 43px;
+        padding-top: 0px;
+    }
+
+    .outfits+div {
+        display: flex;
+        flex-direction: row;
+        margin-left: 6px;
+    }
+
+    .outfits+div>:nth-child(2n+1) {
+        width: 35%;
+        margin-top: 1px;
+    }
+
+    .unit {
+        width: 25px;
+        height: 25px;
+        border-radius: 20px;
+        background: black;
+        margin-left: 4px;
+        margin-top: 0px;
+        color: white;
+        font-family: HelveticaNeueLtCn;
+        font-size: 20px;
+        font-style: italic;
+        padding-left: 7px;
+        padding-top: 0px;
+    }
+
+    .looks {
+        font-family: HelveticaNeueLtStd_BlkCn;
+        font-size: 60px;
+        padding-left: 6%;
+        line-height: 60px;
+        color: rgb(79, 175, 160);
+    }
+
+    main>:nth-child(4)>:last-child>:first-child {
+        margin-top: 36px;
+        border-bottom: 1px solid white;
+        height: 128px;
+        width: 103%;
+        background: url(../images/girl_summer.jpg) no-repeat 85% -30px;
+        background-size: 202% 272%;
+        padding-top: 14px;
+        padding-left: 7%;
+    }
+
+    main>:nth-child(4)>:last-child>:nth-child(2) {
+        border-bottom: 1px solid white;
+        height: 127px;
+        width: 103%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    main>:nth-child(4)>:last-child>:first-child>:first-child {
+        background-color: white;
+        height: 98px;
+        width: 98px;
+        border-radius: 100%;
+        text-align: center;
+    }
+
+    main>:nth-child(4)>:last-child>:first-child p:first-child {
+        font-family: Bello_Script;
+        color: red;
+        font-size: 17px;
+        line-height: 50px;
+        height: 36px;
+    }
+
+    main>:nth-child(4)>:last-child>:first-child p:nth-child(2) {
+        font-family: HelveticaNeuelTStd_UltLtCn;
+        color: black;
+        font-size: 30px;
+        line-height: 0px;
+    }
+
+    main>:nth-child(4)>:last-child>:first-child p:nth-child(3) {
+        font-family: HelveticaNeuelTStd_BdCn;
+        color: black;
+        font-size: 10px;
+        line-height: 9px;
+    }
+
+    .best_sellers {
+        border: 1px solid white;
+        width: 55%;
+    }
+
+    .fall_leathers {
+        border: 1px solid white;
+        width: 50%;
+    }
+
+    .best_sellers {
+        background: url(../images/best_sellers.jpg) no-repeat 60% -23px;
+        background-size: 130% 230%;
+        font-family: HelveticaNeuelTStd_UltLtCn;
+        font-size: 28px;
+        color: white;
+        padding-top: 85px;
+        padding-left: 6%;
+        height: 127px;
+    }
+
+    .fall_leathers {
+        background: url(../images/fall_leather.jpg) no-repeat 10% -21px;
+        background-size: 160% 180%;
+        font-family: HelveticaNeuelTStd_Cn;
+        font-size: 25px;
+        color: white;
+        margin-left: -5%;
+        height: 127px;
+    }
+
+    .fall_leathers p:first-child {
+        margin-left: 19%;
+        margin-top: 26px;
+        height: 20px;
+        width: 60px;
+    }
+
+    .fall_leathers p:nth-child(2) {
+        margin-left: 8%;
+        line-height: 10px;
+        margin-top: 0px;
+    }
+
+    .fall_leathers input:last-child {
+        position: absolute;
+        margin-left: 3%;
+        margin-top: 6px;
+        width: 72px;
+        height: 21px;
+        background: rgb(79, 175, 160) url(../images/arrow_button.jpg) no-repeat 60px;
+        color: white;
+        font-size: 9px;
+        cursor: pointer;
+        border: none;
+        font-family: HelveticaNeueLtStd;
+    }
+}
+
+@media (max-width: 640px) {
+    main>:nth-child(4) {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    main>:nth-child(5) {
+        height: auto;
+        border-right: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    main>:nth-child(5)>:first-child {
+        height: 50px;
+        border-bottom: 1px solid white;
+        display: flex;
+        flex-direction: row;
+    }
+
+    main>:nth-child(5)>:first-child>:first-child {
+        background: rgb(255, 166, 135);
+        margin-left: 9.5%;
+        width: 11.6%;
+        height: 46px;
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(2) {
+        height: 46px;
+        font-size: 15px;
+        width: 10%;
+        background: white;
+        cursor: pointer;
+        min-width: 81px;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(n):hover {
+        background: rgb(255, 166, 135);
+        color: white;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(3) {
+        font-size: 15px;
+        width: 10.5%;
+        height: 46px;
+        background: white;
+        cursor: pointer;
+        min-width: 75px;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(4) {
+        font-size: 15px;
+        width: 8%;
+        height: 46px;
+        background: white;
+        cursor: pointer;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(5) {
+        background: rgb(242, 242, 242) url(../images/arrow_1.jpg) no-repeat 19px;
+        width: 50px;
+        margin-left: 33%;
+        cursor: pointer;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(6) {
+        width: 47px;
+        background: rgb(255, 166, 135) url(../images/arrow_2.jpg) no-repeat 13px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 641px) and (max-width:768px) {
+    main>:nth-child(5) {
+        height: auto;
+        border-right: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        padding-top: 34px;
+    }
+
+    main>:nth-child(5)>:first-child {
+        height: 50px;
+        border-bottom: 1px solid white;
+        display: flex;
+        flex-direction: row;
+    }
+
+    main>:nth-child(5)>:first-child>:first-child {
+        background: rgb(255, 166, 135);
+        margin-left: 1.7%;
+        width: 19%;
+        height: 49px;
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(2) {
+        height: 49px;
+        font-size: 15px;
+        width: 17%;
+        background: white;
+        cursor: pointer;
+        min-width: 81px;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(n):hover {
+        background: rgb(255, 166, 135);
+        color: white;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(3) {
+        font-size: 15px;
+        width: 15%;
+        height: 49px;
+        background: white;
+        cursor: pointer;
+        min-width: 75px;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(4) {
+        font-size: 15px;
+        width: 14%;
+        height: 49px;
+        background: white;
+        cursor: pointer;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(5) {
+        background: rgb(242, 242, 242) url(../images/arrow_1.jpg) no-repeat 19px;
+        width: 50px;
+        margin-left: 20%;
+        cursor: pointer;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(6) {
+        width: 47px;
+        background: rgb(255, 166, 135) url(../images/arrow_2.jpg) no-repeat 13px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 640px) {
+    main>:nth-child(5) {
+        height: auto;
+        border-right: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2px;
+    }
+
+    main>:nth-child(5)>:first-child {
+        height: 90px;
+        border-bottom: 1px solid white;
+        display: flex;
+        flex-direction: row;
+    }
+
+    main>:nth-child(5)>:first-child>:first-child {
+        background: rgb(244, 132, 93) url(../images/arrow_for_whats_hot.png) no-repeat 98%;
+        width: 100%;
+        height: 86px;
+        font-size: 32px;
+        color: white;
+        cursor: pointer;
+        text-align: left;
+        padding-left: 26px;
+        border: none;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(2) {
+        display: none;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(n):hover {
+        background: rgb(255, 166, 135);
+        color: white;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(3) {
+        display: none;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(4) {
+        display: none;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(5) {
+        display: none;
+    }
+
+    main>:nth-child(5)>:first-child>:nth-child(6) {
+        display: none;
+    }
+}
+
+@media (min-width: 641px) {
+    main > :nth-child(5) > :last-child {
+        margin-top: -4px;
+        height: auto;
+        background: rgb(255, 166, 135);
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    main > :nth-child(5) > :last-child > :first-child {
+        width: 100px;
+        padding-right: 14px;
+    }
+
+    .clothes_examples figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+
+    .clothes_examples figcaption {
+        background: white;
+        height: 105px;
+        text-align: center;
+    }
+
+    .clothes_examples figcaption p:first-child {
+        font-family: arial;
+        hight: 2px;
+        font-size: 12px;
+        margin-top: 20px;
+        line-height: 0;
+    }
+
+    .clothes_examples figcaption p:nth-child(2) {
+        font-family: arial;
+        font-size: 22px;
+        margin-top: 22px;
+        line-height: 0;
+    }
+
+    .clothes_examples figcaption button:last-child {
+        margin-top: 7px;
+        width: 120px;
+        height: 30px;
+        font-size: 13px;
+        color: white;
+        background: rgb(255, 166, 135);
+        cursor: pointer;
+    }
+
+    .clothes_examples div:first-child figure {
+        margin-top: 29px;
+        margin-right: 12px;
+        height: 406px;
+        background: url(../images/girl_1.jpg) no-repeat 0px -4px;
+        padding-bottom: 12px;
+    }
+
+    main > :nth-child(5) > :last-child > :nth-child(2) {
+        width: 248px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clothes_examples div:nth-child(n+2) figure {
+        margin-top: 29px;
+        height: 396px;
+        width: 220px;
+    }
+
+    .clothes_examples div:nth-child(2) figure {
+        margin-left: 14px;
+        background: url(../images/girl_2.jpg) no-repeat 0px -8px;
+    }
+
+    main > :nth-child(5) > :last-child > :nth-child(3) {
+        width: 248px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clothes_examples div:nth-child(3) figure {
+        background: url(../images/girl_3.jpg) no-repeat -1px -5px;
+        margin-left: 16px;
+    }
+
+    main > :nth-child(5) > :last-child > :nth-child(4) {
+        width: 252px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clothes_examples div:nth-child(4) figure {
+        background: url(../images/girl_4.jpg) no-repeat -47px -8px;
+        margin-left: 18px;
+    }
+
+    main > :nth-child(5) > :last-child > :nth-child(5) {
+        width: 248px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clothes_examples div:nth-child(5) figure {
+        background: url(../images/girl_5.jpg) no-repeat 1px 0px;
+        margin-left: 16px;
+    }
+
+    main > :nth-child(5) > :last-child > :nth-child(6) {
+        width: 104px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clothes_examples div:nth-child(6) figure {
+        background: url(../images/girl_6.jpg) no-repeat -70px -8px;
+        margin-left: 18px;
+    }
+
+    figure:hover img {
+        width: 150px;
+        height: 150px;
+        margin-left: 40px;
+        margin-top: -150px;
+    }
+
+    .clothes_examples div:nth-child(3) figure div, .clothes_examples div:nth-child(5) figure div, .clothes_examples div:nth-child(6) figure div {
+        width: 1px;
+        height: 1px;
+        border: 25px solid white;
+        border-top: 25px solid black;
+        border-left: 25px solid black;
+        margin-bottom: 242px;
+    }
+
+    .clothes_examples div:nth-child(3) figure div>p, .clothes_examples div:nth-child(5) figure div>p, .clothes_examples div:nth-child(6) figure div>p {
+        position: relative;
+        color: white;
+        top: -22px;
+        left: -20px;
+        font-size: 12px;
+    }
+
+    .load-more {
+        display: none;
+    }
+}
+
+@media (max-width: 1227px) {
+    main>:nth-child(5)>:last-child>:first-child {
+        display: none;
+    }
+}
+
+@media (min-width: 641px) and (max-width:768px) {
+    main>:nth-child(5)>:last-child {
+        height: 456px;
+    }
+}
+
+@media (max-width: 640px) {
+    main > :nth-child(5) > :last-child {
+        margin-top: -4px;
+        height: 570px;
+        background: rgb(255, 166, 135);
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    main > :nth-child(5) > :last-child > :first-child {
+        display: none;
+    }
+
+    .clothes_examples figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+
+    .clothes_examples figcaption {
+        background: white;
+        height: 160px;
+        text-align: center;
+    }
+
+    .clothes_examples figcaption p:first-child {
+        font-family: arial;
+        hight: 2px;
+        font-size: 19px;
+        margin-top: 23px;
+        line-height: 0;
+    }
+
+    .clothes_examples figcaption p:nth-child(2) {
+        font-family: arial;
+        font-size: 26px;
+        margin-top: 33px;
+        line-height: 0;
+    }
+
+    .clothes_examples figcaption button:last-child {
+        margin-top: 11px;
+        width: 220px;
+        height: 65px;
+        font-size: 21px;
+        color: white;
+        background: rgb(255, 166, 135);
+        cursor: pointer;
+    }
+
+    .clothes_examples div:first-child figure {
+        margin-top: 29px;
+        margin-right: 12px;
+        height: 406px;
+        background: url(../images/girl_1.jpg) no-repeat 0px -4px;
+        padding-bottom: 12px;
+    }
+
+    main > :nth-child(5) > :last-child > :nth-child(2) {
+        width: 318px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clothes_examples div:nth-child(n+2) figure {
+        margin-top: 29px;
+        height: 396px;
+        width: 220px;
+    }
+
+    .clothes_examples div:nth-child(2) figure {
+        margin-left: 14px;
+        background: url(../images/girl_2.jpg) no-repeat 0px -8px;
+        background-size: 105%;
+        height:  525px;
+        margin-left: 27px;
+        width: 274px;
+    }
+
+    main > :nth-child(5) > :last-child > :nth-child(3) {
+        width: 318px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clothes_examples div:nth-child(3) figure {
+        background: url(../images/girl_3.jpg) no-repeat -1px -5px;
+        margin-left: 16px;
+        background-size: 105%;
+        height:  525px;
+        width: 274px;
+    }
+
+    main > :nth-child(5) > :last-child > :nth-child(4) {
+        display: none;
+    }
+
+    .clothes_examples div:nth-child(4) figure {
+        background: url(../images/girl_4.jpg) no-repeat -47px -8px;
+        margin-left: 18px;
+    }
+
+    main > :nth-child(5) > :last-child > :nth-child(5) {
+        display: none;
+    }
+
+    .clothes_examples div:nth-child(5) figure {
+        background: url(../images/girl_5.jpg) no-repeat 1px 0px;
+        margin-left: 16px;
+    }
+
+    main > :nth-child(5) > :last-child > :nth-child(6) {
+        display: none;
+    }
+
+    .clothes_examples div:nth-child(6) figure {
+        background: url(../images/girl_6.jpg) no-repeat -70px -8px;
+        margin-left: 18px;
+    }
+
+    figure:hover img {
+        width: 150px;
+        height: 150px;
+        margin-left: 50px;
+        margin-top: -200px;
+        position: absolute;
+    }
+  
+    .clothes_examples div:nth-child(3) figure div, .clothes_examples div:nth-child(5) figure div, .clothes_examples div:nth-child(6) figure div {
+        width: 1px;
+        height: 1px;
+        border: 25px solid white;
+        border-top: 25px solid black;
+        border-left: 25px solid black;
+        margin-bottom: 315px;
+    }
+
+    .clothes_examples div:nth-child(3) figure div>p, .clothes_examples div:nth-child(5) figure div>p, .clothes_examples div:nth-child(6) figure div>p {
+        position: relative;
+        color: white;
+        top: -22px;
+        left: -20px;
+        font-size: 12px;
+    } 
+
+    .load-more {
+        height: 106px;
+        background: rgb(255, 166, 135);
+        padding-left: 33%;
+        padding-top: 16px;
+
+    }
+
+    .load-more>button {
+        width: 53%;
+        height: 60px;
+        font-size: 20px;
+        color: white;
+        background: black;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 352px) {
+    .load-more>button {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) {
+    main>:nth-child(7) {
+        height: 190px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    main>:nth-child(7)>:first-child {
+        width: 43%;
+        padding-top: 95px;
+        padding-left: 9%;
+    }
+   
+    main>:nth-child(7)>:last-child {
+        width: 43%;
+        padding-top: 95px;
+        padding-left: 1%;
+    }
+
+    main>:nth-child(7)>:first-child img {
+        width: 97%;
+    }
+
+    main>:nth-child(7)>:last-child img {
+        width: 80%;
+    }
+
+    main>:nth-child(7)>:nth-child(2) {
+        width: 165px;
+        display: flex;
+        flex-direction: column;
+        background: url(../images/Shape10.jpg) no-repeat 6px 28px;
+        color: white;
+        min-width: 163px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:first-child {
+        font-family: AEmpirial;
+        font-size: 36px;
+        margin-top: 49px;
+        margin-left: 47px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        margin-top: -47px;
+        margin-left: 53px;
+        width: 80px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:nth-child(2)>:first-child {
+        font-family: AEmpirial;
+        font-size: 78px;
+        margin-top: 0px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:nth-child(2)>:last-child {
+        font-family: AEmpirial;
+        font-size: 32px;
+        margin-top: 17px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:nth-child(2)>:last-child>:first-child {
+        height: 17px;
+    }
+}
+
+@media (min-width: 641px) and (max-width:768px) {
+    main>:nth-child(7) {
+        height: 190px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    main>:nth-child(7)>:first-child {
+        width: 43%;
+        padding-top: 95px;
+    }
+
+    main>:nth-child(7)>:last-child {
+        width: 43%;
+        padding-top: 95px;
+        padding-left: 1%;
+    }
+
+    main>:nth-child(7)>:first-child img {
+        width: 100%;
+    }
+
+    main>:nth-child(7)>:last-child img {
+        width: 100%;
+    }
+
+    main>:nth-child(7)>:nth-child(2) {
+        width: 165px;
+        display: flex;
+        flex-direction: column;
+        background: url(../images/Shape10.jpg) no-repeat 6px 28px;
+        color: white;
+        min-width: 163px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:first-child {
+        font-family: AEmpirial;
+        font-size: 36px;
+        margin-top: 49px;
+        margin-left: 47px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        margin-top: -47px;
+        margin-left: 53px;
+        width: 80px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:nth-child(2)>:first-child {
+        font-family: AEmpirial;
+        font-size: 78px;
+        margin-top: 0px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:nth-child(2)>:last-child {
+        font-family: AEmpirial;
+        font-size: 32px;
+        margin-top: 17px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:nth-child(2)>:last-child>:first-child {
+        height: 17px;
+    }
+}
+
+@media (max-width: 640px) {
+    main>:nth-child(7) {
+        height: 190px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    main>:nth-child(7)>:first-child {
+        width: 43%;
+        padding-top: 95px;
+    }
+
+    main>:nth-child(7)>:last-child {
+        width: 43%;
+        padding-top: 95px;
+        padding-left: 1%;
+    }
+
+    main>:nth-child(7)>:first-child img {
+        width: 100%;
+    }
+
+    main>:nth-child(7)>:last-child img {
+        width: 100%;
+    }
+
+    main>:nth-child(7)>:nth-child(2) {
+        width: 165px;
+        display: flex;
+        flex-direction: column;
+        background: url(../images/Shape10.jpg) no-repeat 6px 28px;
+        color: white;
+        min-width: 163px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:first-child {
+        font-family: AEmpirial;
+        font-size: 36px;
+        margin-top: 49px;
+        margin-left: 47px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        margin-top: -47px;
+        margin-left: 53px;
+        width: 80px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:nth-child(2)>:first-child {
+        font-family: AEmpirial;
+        font-size: 78px;
+        margin-top: 0px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:nth-child(2)>:last-child {
+        font-family: AEmpirial;
+        font-size: 32px;
+        margin-top: 17px;
+    }
+
+    main>:nth-child(7)>:nth-child(2)>:nth-child(2)>:last-child>:first-child {
+        height: 17px;
+    }
+
+}
+
+@media (min-width: 769px) {
+    main>:nth-child(8) {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main>:nth-child(8)>div {
+        width: 496px;
+        display: flex;
+    }
+
+    main>:nth-child(8)>div:first-child {
+    }
+
+    main>:nth-child(8) figure {
+        border: 1px solid white;
+        margin-top: 19px;
+        margin-left: 14px;
+        width: 215px;
+        height: 399px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    main>:nth-child(8)>:first-child>:first-child figure {
+        background: url(../images/girl_7.jpg) no-repeat -24px -2px;
+    }
+
+    main>:nth-child(8)>:first-child>:nth-child(2) figure {
+        background: url(../images/girl_8.jpg) no-repeat -10px -6px;
+    }
+
+    main>:nth-child(8)>:first-child>:nth-child(2) figure div {
+        width: 1px;
+        height: 1px;
+        border: 25px solid white;
+        border-top: 25px solid black;
+        border-left: 25px solid black;
+        margin-bottom: 243px;
+    }
+
+    main>:nth-child(8)>:first-child>:nth-child(2) figure div>p {
+        position: relative;
+        color: white;
+        top: -24px;
+        left: -20px;
+        font-size: 10px;
+    }
+
+    main>:nth-child(8)>:last-child>:first-child figure {
+        background: url(../images/girl_9.jpg) no-repeat -65px -6px;
+    }
+
+    main>:nth-child(8)>:last-child>:nth-child(2) figure {
+        background: url(../images/girl_10.jpg) no-repeat -6px -2px;
+    }
+
+    main>:nth-child(8)>:last-child>:nth-child(2) figure div {
+        width: 1px;
+        height: 1px;
+        border: 25px solid white;
+        border-top: 25px solid black;
+        border-left: 25px solid black;
+        margin-bottom: 243px;
+    }
+
+    main>:nth-child(8)>:last-child>:nth-child(2) figure div>p {
+        position: relative;
+        color: white;
+        top: -24px;
+        left: -20px;
+        font-size: 10px;
+    }
+
+    main>:nth-child(8) figcaption {
+        background: rgb(249, 245, 244);
+        height: 103px;
+        font-family: arial;
+        text-align: center;
+    }
+
+    main>:nth-child(8) figcaption p:first-child {
+        font-size: 12px;
+        margin-top: 13px;
+        line-height: 1px;
+    }
+
+    main>:nth-child(8) figcaption p:nth-child(2) {
+        line-height: 1px;
+        font-size: 22px;
+        margin-top: 24px;
+    }
+
+    main>:nth-child(8) figcaption button:last-child {
+        background-color: rgb(255, 166, 135);
+        margin-top: 6px;
+        width: 120px;
+        height: 30px;
+        color: white;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .bags {
+        display: none;
+    }
+}
+
+
+@media (min-width: 641px) and (max-width:768px) {
+    main>:nth-child(8) {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    main>:nth-child(8)>div:first-child {
+        width: 490px;
+        display: flex;
+        justify-content: center;
+    }
+
+    main>:nth-child(8)>div:last-child {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+    }
+
+    main>:nth-child(8)>div:first-child>div {
+        display: flex;
+        justify-content: center;
+    }
+    
+    main>:nth-child(8)>div:last-child>div {
+        display: flex;
+        justify-content: center;
+    }
+   
+
+    main>:nth-child(8)>div:first-child {
+    }
+
+    main>:nth-child(8)>div:nth-child(2) {
+    }
+
+    main>:nth-child(8)>div:nth-child(3) {
+    }
+
+    main>:nth-child(8) figure {
+        border: 1px solid white;
+        margin-top: 19px;
+        width: 215px;
+        height: 399px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    main>:nth-child(8)>:first-child>:first-child figure {
+        background: url(../images/girl_7.jpg) no-repeat -24px -2px;
+    }
+
+    main>:nth-child(8)>:first-child>:nth-child(2) figure {
+        background: url(../images/girl_8.jpg) no-repeat -10px -6px;
+    }
+
+    main>:nth-child(8)>:first-child>:nth-child(2) figure div {
+        width: 1px;
+        height: 1px;
+        border: 25px solid white;
+        border-top: 25px solid black;
+        border-left: 25px solid black;
+        margin-bottom: 243px;
+    }
+
+    main>:nth-child(8)>:first-child>:nth-child(2) figure div>p {
+        position: relative;
+        color: white;
+        top: -24px;
+        left: -20px;
+        font-size: 10px;
+    }
+
+    main>:nth-child(8)>:last-child>:first-child figure {
+        background: url(../images/girl_9.jpg) no-repeat -65px -6px;
+    }
+
+    main>:nth-child(8)>:last-child>:nth-child(2) {
+        display: none;
+    }
+
+    main>:nth-child(8) figcaption {
+        background: rgb(249, 245, 244);
+        height: 103px;
+        font-family: arial;
+        text-align: center;
+    }
+
+    main>:nth-child(8) figcaption p:first-child {
+        font-size: 12px;
+        margin-top: 13px;
+        line-height: 1px;
+    }
+
+    main>:nth-child(8) figcaption p:nth-child(2) {
+        line-height: 1px;
+        font-size: 22px;
+        margin-top: 24px;
+    }
+
+    main>:nth-child(8) figcaption button:last-child {
+        background-color: rgb(255, 166, 135);
+        margin-top: 6px;
+        width: 120px;
+        height: 30px;
+        color: white;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .bags {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    main>:nth-child(8) {
+        display: none;
+    }
+
+    main>:nth-child(9) {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    main>:nth-child(9)>div {
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    main>:nth-child(9)>div:first-child {
+        width: 300px;
+    }
+
+    main>:nth-child(9)>div:nth-child(2) {
+        width: 300px;
+    }
+
+    main>:nth-child(9)>div:nth-child(3) {
+        display: none;
+    }
+
+    main>:nth-child(9)>div:nth-child(4) {
+        display: none;
+    }
+
+    main>:nth-child(9) figure {
+        border: 1px solid white;
+        margin-top: 19px;
+        width: 215px;
+        height: 399px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    main>:nth-child(9)>:first-child figure {
+        background: url(../images/bag2.jpg) no-repeat 14px -39px;
+        width: 265px;
+        height: 480px;
+    }
+
+    main>:nth-child(9)>:nth-child(2) figure {
+        background: url(../images/bag1.jpg) no-repeat 30px 5px;
+        width: 265px;
+        height: 480px;
+    }
+
+    main>:nth-child(9)>:nth-child(2) figure div {
+        display: none;
+    }
+
+    main>:nth-child(9)>:nth-child(2) figure div>p {
+        position: relative;
+        color: white;
+        top: -24px;
+        left: -20px;
+        font-size: 10px;
+    }
+
+    main>:nth-child(9)>:nth-child(4) figure div {
+        width: 1px;
+        height: 1px;
+        border: 25px solid white;
+        border-top: 25px solid black;
+        border-left: 25px solid black;
+        margin-bottom: 243px;
+    }
+
+    main>:nth-child(9)>:nth-child(4) figure div>p {
+        position: relative;
+        color: white;
+        top: -24px;
+        left: -20px;
+        font-size: 10px;
+    }
+
+    main>:nth-child(9) figcaption {
+        background: rgb(249, 245, 244);
+        height: 154px;
+        font-family: arial;
+        text-align: center;
+    }
+
+    main>:nth-child(9) figcaption p:first-child {
+        font-size: 18px;
+        margin-top: 13px;
+        line-height: 1px;
+    }
+
+    main>:nth-child(9) figcaption p:nth-child(2) {
+        line-height: 1px;
+        font-size: 25px;
+        margin-top: 29px;
+        margin-left: 10px;
+    }
+
+    main>:nth-child(9) figcaption button:last-child {
+        background-color: rgb(255, 166, 135);
+        margin-top: 10px;
+        width: 220px;
+        height: 64px;
+        color: white;
+        font-size: 19px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 641px) {
+    .button-for-iphone {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .button-for-iphone {
+        height: 108px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-for-iphone button {
+        width: 220px;
+        height: 60px;
+        background: black;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
