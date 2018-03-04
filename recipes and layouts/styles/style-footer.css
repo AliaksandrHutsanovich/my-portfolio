@@ -732,10 +732,12 @@
 
     .references-about-company div p {
         height: 2px;
+        width: 90px;
     }
 
     .references-about-company div p:first-child {
         margin-left: 70%;
+        width: 74px;
     }
 
     .references-about-company div p:nth-child(2) {
@@ -755,11 +757,13 @@
 
    .references-about-company div p:first-child {
        margin-left: 55%;
+       width: 74px;
    }
 
     .references-about-company div p:nth-child(2) {
         margin-top: 3px;
         margin-left: 55%;
+        width: 90px;
     }
 }
 
@@ -838,11 +842,13 @@
 
     .references-about-company div p:first-child {
         margin-left: 70%;
+        width: 74px;
     }
 
     .references-about-company div p:nth-child(2) {
         margin-top: 3px;
-        margin-left: 68%;
+        margin-left: 65%;
+        width: 90px;
     }
 
     .references-about-company a:nth-child(n+2):before {
@@ -914,6 +920,10 @@
         margin-top: 3px;
     }
 }
+
+
+
+
 
 
 

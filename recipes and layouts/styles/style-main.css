@@ -912,6 +912,7 @@
         margin-left: 8%;
         line-height: 10px;
         margin-top: 0px;
+        width: 70px;
     }
 
     .fall_leathers input:last-child {
@@ -1142,7 +1143,7 @@
     }
 
     main > :nth-child(5) > :last-child > :first-child {
-        width: 100px;
+        display: none;
         padding-right: 14px;
     }
 
@@ -1184,6 +1185,7 @@
         cursor: pointer;
     }
 
+
     .clothes_examples div:first-child figure {
         margin-top: 29px;
         margin-right: 12px;
@@ -1193,7 +1195,7 @@
     }
 
     main > :nth-child(5) > :last-child > :nth-child(2) {
-        width: 248px;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -1210,7 +1212,7 @@
     }
 
     main > :nth-child(5) > :last-child > :nth-child(3) {
-        width: 248px;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -1221,7 +1223,7 @@
     }
 
     main > :nth-child(5) > :last-child > :nth-child(4) {
-        width: 252px;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -1232,7 +1234,7 @@
     }
 
     main > :nth-child(5) > :last-child > :nth-child(5) {
-        width: 248px;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
